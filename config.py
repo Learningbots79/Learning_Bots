@@ -6,22 +6,13 @@ from pyrogram import filters
 
 load_dotenv()
 
-# Get this value from my.telegram.org/apps
+
 API_ID = 
 API_HASH = ""
-
-# Get your token from @BotFather on Telegram.
 BOT_TOKEN = ""
-
-# Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = ""
-
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
-
-# Chat id of a group for logging bot's activities
 LOGGER_ID = 
-
-# Get this value from @FallenxBot on Telegram by /id
 OWNER_ID = 
 
 ## Fill these variables if you're deploying on heroku.
